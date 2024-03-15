@@ -44,8 +44,38 @@ i{
 }
 textarea{
     color: black;
-    background-color:black;
+    background-color:white;
 }
 textarea::selection{
     color: black;
+}
+.end{
+    display: flex;
+    justify-content: right;
+}
+.run{
+    border: 0 solid black;
+    height: 25px;
+    width: 60px;
+    border-radius: 10px;
+    background-color: aliceblue;
+    text-align: center;
+    font-size: larger;
+    margin: 15px;
+    cursor: pointer;
+}
+.submit{
+    border: 0 solid black;
+    height: 25px;
+    width: 80px;
+    border-radius: 10px;
+    background-color: green;
+    text-align: center;
+    font-size: larger;
+    margin: 15px;
+    cursor: pointer;
+}
+a{
+    color: white;
+    text-decoration: none;
 }
