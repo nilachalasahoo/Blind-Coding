@@ -79,3 +79,11 @@ a{
     color: white;
     text-decoration: none;
 }
+.copywrite{
+    padding: 15px;
+    display: flex;
+    justify-content: end;
+}
+.name{
+    color: black;
+}
