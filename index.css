@@ -1,0 +1,51 @@
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+}
+h1{
+    flex: 0 0 100%;
+    background-color: aqua;
+    color: red;
+    display: flex;
+    justify-content: center;
+    border-radius: 15px;
+}
+.col1{
+    flex: 0 0 35%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+p{
+    font-size: large;
+}
+span{
+    display: block;
+}
+.col2{
+    flex: 0 0 60%;
+}
+.row{
+    font-size: larger;
+    display: flex;
+}
+label{
+    margin-left: 0px;
+    margin-bottom: 10px;
+}
+select{
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+i{
+    margin-left: 500px;
+    cursor: pointer;
+}
+textarea{
+    color: black;
+    background-color:black;
+}
+textarea::selection{
+    color: black;
+}
