@@ -75,15 +75,15 @@ textarea::selection{
     margin: 15px;
     cursor: pointer;
 }
+.link{
+    color:white
+}
 a{
-    color: white;
     text-decoration: none;
+    color: black;
 }
 .copywrite{
     padding: 15px;
     display: flex;
     justify-content: end;
-}
-.name{
-    color: black;
 }
