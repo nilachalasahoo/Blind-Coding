@@ -44,7 +44,7 @@ i{
 }
 textarea{
     color: black;
-    background-color:white;
+    background-color:black;
 }
 textarea::selection{
     color: black;
